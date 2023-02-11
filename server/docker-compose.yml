@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  redis:
+    image: redis
+    ports:
+      - 6379:6379
+    volumes:
+      - $HOME/Desktop/dev-fullstack/lireddit/server/redis:/data
+  db:
+    container_name: briangroup-services
+    image: postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: brian27
+      POSTGRES_PASSWORD: love5430
+      POSTGRES_DB: lireddit
+    ports:
+      - "5432:5432"
+    volumes:
+      - $HOME/Desktop/dev-fullstack/lireddit/server/data:/var/lib/postgresql/data
