@@ -1,9 +1,9 @@
 .DS_store
 
 # Directories
-node_modules/*
-data/*
-redis/*
+server/node_modules/*
+server/data/*
+server/redis/*
 .vscode/*
 
 # dotenv environment variable files
