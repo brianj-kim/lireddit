@@ -1,3 +1,3 @@
 # Lireddit
 
-Full stack applications Node.js, Express, Apollo server/client, GraphQL, React.js (TypeScript)
+Full stack applications Node.js, Express, Redis, Apollo server/client, MikroORM, PostgreSQL, GraphQL, and React.js (TypeScript, front-end)
